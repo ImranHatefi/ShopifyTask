@@ -1,0 +1,749 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  height: 75px;
+  padding: 25px 0px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  z-index: 100;
+}
+.navcontainer {
+  width: 100%;
+  height: 25px;
+  padding: 0% 10%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.menu {
+  display: none;
+}
+.navimg {
+  width: 15%;
+  height: 25px;
+  padding: 0px 15px;
+}
+.navimg img {
+  width: 140px;
+}
+.navimg img:hover {
+  cursor: pointer;
+}
+.navlist {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
+}
+.navlist ul {
+  list-style: none;
+  display: flex;
+}
+.navlist-inside li {
+  padding: 0px 20px;
+  color: rgb(52, 52, 52);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Jost", sans-serif;
+}
+.navlist-inside li:hover {
+  color: orangered;
+  transition: 0.3s;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  cursor: pointer;
+  text-underline-offset: 5px;
+}
+.shop {
+  position: relative;
+}
+.shop-span {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -13px;
+  left: 50px;
+  padding: 0px 5px;
+  height: 16px;
+  font-size: 8px;
+  font-weight: 600;
+  color: white;
+  right: 0px;
+  background-color: rgb(230, 46, 5);
+}
+.lefticons {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.icons {
+  list-style: none;
+  display: flex;
+}
+.icons li {
+  padding: 10px;
+}
+.icons li:hover {
+  cursor: pointer;
+}
+
+.photocontainer img {
+  height: 100vh;
+  width: 100%;
+}
+.photosection {
+  position: relative;
+  width: 100%;
+}
+.textbox {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translateY(-50%);
+  text-align: left;
+  font-family: "Jost", sans-serif;
+}
+.textbox-top {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  line-height: 21px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  color: rgb(48, 48, 48);
+}
+.textbox-middle {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 96px;
+  padding-bottom: 15px;
+  color: rgb(0, 0, 0);
+}
+.textbox-bottom {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 15px;
+  color: #303030;
+}
+.textbox button {
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  margin-top: 30px;
+  padding: 15px 40px;
+  border-color: black;
+  border: solid 1px;
+  background-color: transparent;
+  text-transform: uppercase;
+  text-decoration-style: solid;
+  width: 180px;
+  height: 46px;
+  letter-spacing: 2px;
+  font-family: "Jost", sans-serif;
+}
+.textbox button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+.halfsection {
+  width: 100%;
+  max-width: 100%;
+  height: 830px;
+  padding-top: 70px;
+  font-family: "Jost", sans-serif;
+  color: black;
+  display: inline-flex;
+}
+.textplace {
+  width: 50%;
+  height: 100%;
+  padding: 0% 7%;
+  display: flex;
+  align-items: center;
+}
+.textplace h3 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 72px;
+  text-align: left;
+  margin-bottom: 35px;
+}
+.textplace p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.textplace button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 48px;
+  padding: 15px 40px;
+  border: 2px solid black;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Jost", sans-serif;
+}
+.textplace button:hover {
+  background-color: transparent;
+  color: black;
+  transition: 0.3s;
+}
+.imgplace {
+  width: 50%;
+  height: 100%;
+  padding-bottom: 60px;
+  padding-left: 60px;
+}
+.imgplace img {
+  border: 5px solid white;
+  max-width: 100%;
+}
+
+.bestsales {
+  width: 100%;
+  height: 1220px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.bestsales2 {
+  width: 100%;
+  height: 587px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.bsmain {
+  width: 70%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.bstext {
+  text-align: center;
+  width: 100%;
+  height: 88px;
+}
+.bstext h3 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: rgb(33, 37, 41);
+}
+.bstext hr {
+  width: 75px;
+  height: 2px;
+  background-color: #ff871d;
+  border: none;
+  margin: auto;
+}
+.bstext p {
+  height: 25px;
+  width: 100%;
+  font-size: 17px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  margin-top: 20px;
+}
+.bsproducts {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.products {
+  width: 25%;
+  height: 430px;
+}
+.products h4 {
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(17, 17, 17);
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.products p {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(255, 135, 29);
+  line-height: 22.5px;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+}
+.outer {
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+.inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  display: none;
+}
+
+.outer img,
+.inner img {
+  width: 100%;
+}
+.outer:hover .inner {
+  display: block;
+  transition: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.menwomen{
+width: 100%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+.menwomen h3{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  font-family: "Jost", sans-serif;
+}
+.men{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.men img{
+  width: 100%;
+}
+.women img {
+  width: 100%;
+}
+.innermen{
+  width: 680px;
+  height: 400px;
+  position: absolute;
+  top:4%;
+  left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  background-color: white;
+  opacity: 75%;
+  display: none;
+}
+.men:hover .innermen{
+  display: flex;
+  transition: 1s;
+ transition-delay: 0.5s;
+}
+.women{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.innerwomen{
+  width: 680px;
+  height: 400px;
+  position: absolute;
+  top:4%;
+  left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  background-color: white;
+  opacity: 75%;
+  display: none;
+}
+.women:hover .innerwomen{
+  display: flex;
+  transition: 1s;
+ transition-delay: 0.5s;
+}
+
+.halfsection2 {
+  width: 100%;
+  max-width: 100%;
+  height: 830px;
+  padding-top: 70px;
+  font-family: "Jost", sans-serif;
+  color: black;
+  display: inline-flex;
+}
+
+
+.blogs {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+
+.blogsinside {
+  width: 33%;
+}
+
+.blogs img {
+  width: 100%;
+}
+
+.blogtext-up {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #83868c;
+  text-transform: uppercase;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.blogtext-middle {
+  font-size: 22px;
+  color: #111111;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.blog-hr {
+  width: 75px;
+  height: 2px;
+  background-color: #ff871d;
+  border: none;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.blogtext-bottom {
+  text-align: center;
+  color: #83868c;
+  font-size: 16px;
+}
+.blogs img:hover {
+  opacity: 0.7;
+}
+.blogtext-up:hover {
+  color: #ff871d;
+}
+.blogtext-middle:hover {
+  color: #ff871d;
+}
+
+.instagram{
+width: 100%;
+height: 720px;
+margin-top: 50px;
+padding: 0% 10%;
+overflow: scroll;
+}
+.instext{
+  text-align: center;
+  width: 100%;
+  height: 88px;
+}
+
+.instext h3 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: rgb(33, 37, 41);
+}
+.instext hr {
+  width: 75px;
+  height: 2px;
+  background-color: #ff871d;
+  border: none;
+  margin: auto;
+}
+
+.instagramposts{
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.inspost{
+  width: 20%;
+  padding: 3px 5px;
+}
+.inspost img{ width: 100%;}
+
+.footer{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.footerparts {
+  width: 20%;
+  padding: 5% 0%;
+}
+.footerparts p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: rgb(17, 17, 17);
+  margin-top: 23px;
+  text-align: left;
+}
+.footerparts img {
+  width: 140px;
+}
+.footerparts img:hover {
+  cursor: pointer;
+}
+.footerlist{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin-top: 23px;
+}
+.footerlist li {
+ margin-left: 10px;
+}
+
+
+.footerparts hr{
+height: 3px;
+background-color: black;
+width: 30px;
+margin: 10px 0px;
+}
+.footerparts h4{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color: rgb(17, 17, 17);
+  font-family: "Jost", sans-serif;
+}
+.footerlist2{
+list-style: none;
+font-size: 15px;
+  font-weight: 400;
+  line-height: 34px;
+  color: rgb(17, 17, 17);
+  font-family: "Jost", sans-serif;
+}
+.copyright{
+  width: 100%;
+  height: 75px;
+  padding: 25px 10px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+
+@media(max-width:1300px) {
+  .men{
+    margin-bottom:  20px; ;
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+  .navlist {
+    display: none;
+  }
+  #heart {
+    display: none;
+  }
+  #user {
+    display: none;
+  }
+  .navbar {
+    padding: 0px 1%;
+  }
+  .navimg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .navcontainer {
+    padding: 0% 1%;
+  }
+  .lefticons {
+    width: 25%;
+  }
+  .menu {
+    display: block;
+    width: 25%;
+    cursor: pointer;
+  }
+  .photocontainer img {
+    width: 100%;
+    object-position: right;
+  }
+  .icons li {
+    padding: 0px;
+  }
+  #search {
+    padding-right: 10px;
+  }
+  .textplace h3 {
+    font-size: 45px;
+  }
+  .bsproducts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1100px) {
+  .halfsection {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+  }
+  .halfsection2 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 1100px;
+  }
+  .textplace {
+    padding: 0 7% 7% 7%;
+    width: 100%;
+  }
+  .imgplace {
+    width: 100%;
+  }
+  .textplace h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .textplace p {
+    margin-bottom: 20px;
+  }
+  .textplace button {
+    margin-top: 0px;
+  }
+  .inspost{
+    width: 33%;
+  }
+  .instagramposts{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .blogs {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .blogsinside {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 10%;
+  }
+  .footerparts {
+    width: 50%;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .blogs{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .blogsinside{
+    margin-top: 20px;
+  }
+  .inspost{
+    width: 50%;
+  }
+  .instagramposts{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+  }
+ .copyright{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+
+}
+
+@media (max-width: 580px) {
+  .photosection {
+    position: relative;
+  }
+  .textbox {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+  }
+  .inspost{
+    width: 100%;
+  }
+  .instagramposts{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 20%;
+  }
+  .footerparts {
+    width: 100%;
+  }
+}
